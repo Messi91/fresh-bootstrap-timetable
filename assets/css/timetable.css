@@ -1,0 +1,56 @@
+tr {
+  border-bottom: 1px solid black;
+}
+
+.table {
+  table-layout: fixed;
+  font-weight: bold;
+}
+
+.buffer {
+  background: repeating-linear-gradient(
+    135deg,
+    #747778,
+    #747778 2px,
+    #000000 2px,
+    #000000 10px
+  );
+  text-align: center;
+}
+
+.wake-up {
+  background: orange; /* For browsers that do not support gradients */
+  background: -webkit-radial-gradient(circle farthest-side, yellow, red); /* For Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(circle farthest-side, yellow, red); /* For Opera 11.1 to 12.0 */
+  background: -moz-radial-gradient(circle farthest-side, yellow, red); /* For Firefox 3.6 to 15 */
+  background: radial-gradient(circle farthest-side, yellow, red); /* Standard syntax */
+  border-radius: 10px 10px 0px 0px;
+  color: #000000;
+}
+
+.sleep {
+  background: #1C3E75;
+  border-radius: 0px 0px 5px 5px;
+  background: linear-gradient(#0A0C11, #0C3661);
+}
+
+.sleep {
+  text-align: center;
+}
+
+.wake-up {
+  text-align: center;
+  border: 2px solid blue;
+}
+
+.duration {
+  text-align: center;
+}
+
+.status {
+  text-align: center;
+}
+
+.thread {
+  background: linear-gradient(green, green);
+}
