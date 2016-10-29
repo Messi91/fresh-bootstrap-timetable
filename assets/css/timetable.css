@@ -1,5 +1,6 @@
 tr {
   border-bottom: 1px solid black;
+  padding-bottom: 50px;
 }
 
 .table {
@@ -48,9 +49,41 @@ tr {
 }
 
 .status {
-  text-align: center;
+  text-align: right;
 }
 
 .thread {
-  background: linear-gradient(green, green);
+  background: linear-gradient(#00AD00, #00AD00);
+  height: 60px;
+}
+
+.thread:hover {
+  background: linear-gradient(#00D900, #00D900);
+}
+
+.weave {
+  background: linear-gradient(#8400C2, #8400C2);
+  height: 80px;
+}
+
+.weave:hover {
+  background: linear-gradient(#AD21ED, #AD21ED);
+}
+
+.laser-donut {
+  background: linear-gradient(#0484C4, #0484C4);
+  height: 80px;
+}
+
+.laser-donut:hover {
+  background: linear-gradient(#38B6F5, #38B6F5);
+}
+
+.hobby {
+  background: linear-gradient(#ED64AD, #ED64AD);
+  height: 60px;
+}
+
+.hobby:hover {
+  background: linear-gradient(#F288C1, #F288C1);
 }
